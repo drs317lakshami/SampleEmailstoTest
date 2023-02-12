@@ -7,7 +7,7 @@ public class EmailValidation {
     public static void main(String[] args) {
         System.out.println("Welcome to Regular Expressions program to validate Email IDs!\n");
         EmailValidation check = new EmailValidation();
-        String email = "abc";
+        String email = " abc";
         String email1 = ".abc";
         String email2 = "1abc";
         check.validateEmail(email);
